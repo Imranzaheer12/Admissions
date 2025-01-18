@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)http://127.0.0.1:5500/Portfolio/Profile/Classroom/Practical%20problem/Practical%202/indext.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admissions</title>
+</head>
+<body>
+    <h1>University Admissions</h1>
+    <div class="container">
+        <h2>University Admissions Form</h2>
+        
+        <form action="http://127.0.0.1:5500/submit_form" method="POST">
+            
+            <!-- Personal Information -->
+            <div class="form-section">
+                <h3>Personal Information</h3>
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required="">
+    
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required="">
+    
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required="">
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+    
+            <!-- Contact Information -->
+            <div class="form-section">
+                <h3>Contact Information</h3>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required="">
+    
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required="">
+    
+                <label for="address">Home Address:</label>
+                <textarea id="address" name="address" rows="4" required=""></textarea>
+            </div>
+    
+            <!-- Academic Background -->
+            <div class="form-section">
+                <h3>Academic Background</h3>
+                <label for="high_school">High School Name:</label>
+                <input type="text" id="high_school" name="high_school" required="">
+    
+                <label for="graduation_year">Graduation Year:</label>
+                <input type="number" id="graduation_year" name="graduation_year" min="1900" max="2100" required="">
+    
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa" required="">
+            </div>
+    
+            <!-- Application Details -->
+            <div class="form-section">
+                <h3>Application Details</h3>
+                <label for="program">Program of Study:</label>
+                <select id="program" name="program" required="">
+                    <option value="">Select Program</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Science">Science</option>
+                    <option value="Business">Business</option>
+                    <option value="Arts">Arts</option>
+                </select>
+    
+                <label for="intended_start_date">Intended Start Date:</label>
+                <input type="month" id="intended_start_date" name="intended_start_date" required="">
+            </div>
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+
+</script>
+
+</body>
+</html>
